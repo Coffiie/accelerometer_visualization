@@ -7,7 +7,6 @@ import 'package:sensors/sensors.dart';
 
 class HomeViewModel extends BaseViewModel {
   StreamSubscription<UserAccelerometerEvent> _subscriptionAcc;
-  StreamSubscription<GyroscopeEvent> _subscriptionGyro;
   GlobalKey<ScaffoldState> _scaffoldKey;
   List<FlSpot> _spotsListAccX;
   List<FlSpot> _spotsListAccY;
